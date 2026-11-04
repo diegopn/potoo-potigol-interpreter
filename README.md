@@ -2,6 +2,14 @@
 
 A Rust interpreter library for the documented Potigol 1.0.0-RC2 language core. It depends on `fancy-regex` and can be embedded in Rust applications; it includes a standalone terminal command-line runner. It is an independent implementation and does not run or bundle the official Scala/JVM interpreter.
 
+## Original language references
+
+- [Potigol language documentation](https://potigol.github.io/docs/)
+- [Upstream Potigol interpreter](https://github.com/potigol/potigol)
+- [Documentation source repository](https://github.com/potigol/docs)
+
+These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
+
 ## Source example
 
 ```poti
