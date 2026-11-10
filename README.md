@@ -29,14 +29,6 @@ The crate depends on `fancy-regex` and can be embedded in Rust applications. It 
 
 These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
 
-## Original language references
-
-- [Potigol language documentation](https://potigol.github.io/docs/)
-- [Upstream Potigol interpreter](https://github.com/potigol/potigol)
-- [Documentation source repository](https://github.com/potigol/docs)
-
-These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
-
 ## Source example
 
 ```poti
@@ -112,6 +104,14 @@ cargo test
 ```
 
 The conformance tests cover representative examples from Potigol documentation and release notes.
+
+## Support
+
+If this interpreter is useful in your work, you can support its continued development:
+
+<p align="left">
+  <a href="https://github.com/sponsors/diegopn"><img alt="Become a sponsor" src="https://img.shields.io/badge/Become_a_sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"></a>
+</p>
 
 ## Project policies
 
@@ -195,14 +195,6 @@ potoo-potigol-interpreter = { git = "https://github.com/diegopn/potoo-potigol-in
 ```
 
 The library API lets Rust applications provide their own `RuntimeIo` implementation.
-
-## Support
-
-If this interpreter is useful in your work, you can support its continued development:
-
-<p align="left">
-  <a href="https://github.com/sponsors/diegopn"><img alt="Become a sponsor" src="https://img.shields.io/badge/Become_a_sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"></a>
-</p>
 
 ## DOI and citation
 
