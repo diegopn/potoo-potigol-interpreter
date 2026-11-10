@@ -29,6 +29,14 @@ The crate depends on `fancy-regex` and can be embedded in Rust applications. It 
 
 These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
 
+## Original language references
+
+- [Potigol language documentation](https://potigol.github.io/docs/)
+- [Upstream Potigol interpreter](https://github.com/potigol/potigol)
+- [Documentation source repository](https://github.com/potigol/docs)
+
+These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
+
 ## Source example
 
 ```poti
