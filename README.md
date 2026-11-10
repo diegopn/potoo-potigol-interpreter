@@ -1,6 +1,33 @@
-# potoo-potigol-interpreter
+<p align="center">
+  <img src="https://diegopn.github.io/potoo-site/src/assets/images/language-interpreter-icon.svg?v=1c651ca7" alt="Potoo IDE language interpreter icon" width="120" />
+</p>
 
-A Rust interpreter library for the documented Potigol 1.0.0-RC2 language core. It depends on `fancy-regex` and can be embedded in Rust applications; it includes a standalone terminal command-line runner. It is an independent implementation and does not run or bundle the official Scala/JVM interpreter.
+<h1 align="center">Potigol Interpreter</h1>
+
+<p align="center">An independent Rust interpreter library and CLI for the documented Potigol 1.0.0-RC2 language core.</p>
+
+<p align="center">
+  <a href="https://github.com/diegopn/potoo-potigol-interpreter/releases/latest">Download</a> ·
+  <a href="https://diegopn.github.io/potoo-site/">Website</a> ·
+  <a href="https://diegopn.github.io/potoo-site/manual/potigol/">User manual</a>
+</p>
+
+<p align="center">
+  <a href="https://www.rust-lang.org/"><img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"></a>
+  <a href="https://doc.rust-lang.org/cargo/"><img alt="Cargo" src="https://img.shields.io/badge/Cargo-DEA584?style=for-the-badge&logo=rust&logoColor=white"></a>
+  <img alt="Rust library" src="https://img.shields.io/badge/Rust_library-4A86CF?style=for-the-badge">
+  <img alt="CLI" src="https://img.shields.io/badge/CLI-6A4C93?style=for-the-badge">
+</p>
+
+The crate depends on `fancy-regex` and can be embedded in Rust applications. It does not run or bundle the official Scala/JVM interpreter.
+
+## Original language references
+
+- [Potigol language documentation](https://potigol.github.io/docs/)
+- [Upstream Potigol interpreter](https://github.com/potigol/potigol)
+- [Documentation source repository](https://github.com/potigol/docs)
+
+These are the original language and implementation references for compatibility work. This repository provides an independent Rust implementation.
 
 ## Original language references
 
@@ -86,8 +113,17 @@ cargo test
 
 The conformance tests cover representative examples from Potigol documentation and release notes.
 
+## Support
+
+If this interpreter is useful in your work, you can support its continued development:
+
+<p align="left">
+  <a href="https://github.com/sponsors/diegopn"><img alt="Become a sponsor" src="https://img.shields.io/badge/Become_a_sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"></a>
+</p>
+
 ## Project policies
 
+- [Code of conduct](CODE_OF_CONDUCT.md)
 - [Contributing](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
 - [GPL-3.0-or-later license](LICENSE)
