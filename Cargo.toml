@@ -1,6 +1,6 @@
 [package]
 name = "potoo-potigol-interpreter"
-version = "0.1.0"
+version = "0.1.1"
 description = "Independent Rust interpreter for the Potigol programming language"
 license = "GPL-3.0-or-later"
 readme = "README.md"
